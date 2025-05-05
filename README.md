@@ -38,7 +38,30 @@ A simple yet functional blog application built with Django. This project allows 
 
 ### 🛠️ Setup Instructions
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/django-blog.git
-   cd django-blog
+## 🚀 Getting Started
+
+### 🛠️ Setup Instructions
+
+Run these commands sequentially in your terminal:
+
+```bash
+# Clone repository and enter directory
+git clone https://github.com/banadawit//Blog-Post-By-Django.git
+cd django-blog
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Setup database
+python manage.py makemigrations
+python manage.py migrate
+
+# Create admin user (follow prompts)
+python manage.py createsuperuser
+
+# Run development server
+python manage.py runserver
