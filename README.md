@@ -36,12 +36,9 @@ A simple yet functional blog application built with Django. This project allows 
 
 ## 🚀 Getting Started
 
-*(Add your installation/usage instructions here)*
+### 🛠️ Setup Instructions
 
-## 📂 Project Structure
-
-*(Optional: Add your project structure overview here)*
-
-## 📝 License
-
-*(Add your license information here)*
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/django-blog.git
+   cd django-blog
